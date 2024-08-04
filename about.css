@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+.main{
+    border: 0px solid transparent;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+.a{
+    width: 100%;
+    height: 128vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.226),rgba(255, 255, 255, 0.128));
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    border: 0px solid transparent;
+}
+.back{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    }
+    @media (min-aspect-ratio:16/9){
+        .back{
+            width: 100%;
+            height: auto;
+        }
+    }
+    @media (max-aspect-ratio:16/9){
+        .back{
+            width: auto;
+            height: 100%;
+        }
+    }
+    .main1{
+        border: 0px solid red;
+        width: 100%;
+        height: 40px;
+        display: flex;
+        /* backdrop-filter: blur(70px); */
+    }
+    .main2{
+        border: 0px solid blue;
+        width: 500px;
+        height: 40px;
+        font-weight: bolder;
+    }
+    .main3{
+        border: 0px solid blue;
+        width: 100%;
+        height: 60px; 
+        display: flex;
+    }
+    .main4{
+        border: 0px solid red;
+        width: 500px;
+        height: 60px;
+    }
+    .nv{
+        overflow: hidden;
+        list-style-type: none;
+    }
+    .nav{
+        float: left;
+    }
+    .link{
+        padding: 10px 12px;
+        text-decoration: none;
+        color: white;
+        font-size: 25px;
+    }
+    .link:hover{
+        color: goldenrod;
+        font-weight: bolder;
+       }
+       .link:active{
+        border-bottom: 4px solid goldenrod;
+       }
+    .b{
+        border: 1.5px solid goldenrod;
+        width: 90px;
+        height: 0px;
+        margin-left: 18px;
+    }
+    .dox{
+        width: 200px;
+        height: 40px;
+        border: 2px solid goldenrod;
+        background-color: transparent;
+        margin-left: 100px;
+    }
+    .dox1{
+        text-decoration: none;
+        color: goldenrod;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    .dox1:hover{
+        color: white;
+    }
+    .mode{
+        border: 0px solid green;
+        width: 700px;
+        height: 40px;
+        margin-top:70px;
+        margin-left: 200px;
+    }
+    .mode1{
+        border: 0px solid red;
+        width: 1150px;
+        height: 460px;
+        display: flex;
+        margin-left: 30px;
+    }
+    .mode2{
+        border:0px solid green;
+        width: 500px;
+        height:460px;
+    }
+    .item{
+        border: 0px solid blue;
+        width: 100%;
+        height:150vh;
+        position: relative;
+        background-image: url(1712032070931.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+       }
+       .mean{
+        position: absolute;
+        width: 100%;
+        height:150vh;
+        top: 0;
+        left: 0;
+        background-color: rgba(128, 128, 128, 0.176);
+       }
+       .smile{
+        display: flex;
+        border: 0px solid red;
+        width: 800px;
+        height: 100px;
+        margin-left: 240px;
+       }
+       .smile1{
+        border: 0px solid green;
+        width: 500px;
+        height: 100px;
+       }
+       .review{
+        border: 0px solid blue;
+        width: 1200px;
+        height: 580px;
+        display: flex;
+        margin-left: 30px;
+       }
+       .review1{
+        border: 0px solid red;
+        width: 400px;
+        height: 580px;
+       }
+       .hello{
+        border: 2px solid white;
+        height: 400px;
+        width: 350px;
+        margin-left:23px;
+        margin-top: 30px;
+        backdrop-filter: blur(5px);
+        border-top-left-radius: 80px;
+        border-bottom-right-radius: 80px;
+        box-shadow: 2px 3px 5px red;
+       }
+       .hello1{
+        border: 0px solid red;
+        width: 300px;
+        height: 40px;
+        margin-left: 23px;
+       }

@@ -1,0 +1,347 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    border: 0px solid transparent;
+    height: 100vh;
+    width: 100%;
+}
+.main1{
+    border: 0px solid transparent;
+    width: 100%;
+    height: 140vh;
+    position: relative;
+    background-image: url(1711777270864.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: back 10s linear infinite;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 140vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.422);
+}
+@keyframes back{
+    0%{
+        background-image: url(1711777270864.jpg);
+    }
+    20%{
+        background-image: url(1711777270864.jpg);
+    }
+    25%{
+        background-image: url(1711778576053.jpg);
+    }
+    45%{
+        background-image: url(1711778576053.jpg);
+    }
+    50%{
+        background-image: url(1711778576016.jpg);
+    }
+    70%{
+        background-image: url(1711778576016.jpg);
+    }
+    75%{
+        background-image: url(1711778576042.jpg);
+    }
+    95%{
+        background-image: url(1711778576042.jpg);
+    }
+}
+
+.contain{
+    border: 2px solid transparent;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.obj{
+ width: 400px;
+ height: 40px;
+ border: 1px solid transparent;
+}
+.contain1{
+    border: 2px solid transparent;
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.obj1{
+    width: 400px;
+ height: 40px;
+ border: 1px solid transparent;
+   }
+   .menu{
+    overflow: hidden;
+    list-style-type: none;
+   }
+   .nav{
+    float: left;
+   }
+   .link{
+    padding: 10px 12px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+   }
+   .link:hover{
+    color: goldenrod;
+    font-weight: bolder;
+   }
+   .link:active{
+    border-bottom: 4px solid goldenrod;
+   }
+.a{
+    border: 1.5px solid goldenrod;
+    width: 40px;
+    height: 0px;
+    margin-left: 18px;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    background-color:rgba(218, 165, 32, 0.717);
+    margin-left:250px;
+    border: 1px solid rgba(218, 165, 32, 0.717);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 12px;
+}
+button{
+    width: 150px;
+    height: 40px;
+}
+.dox{
+    text-decoration: none;
+    color: black;
+}
+.dox:hover{
+    color: goldenrod;
+}
+button:hover{
+    border: 2px solid goldenrod;
+    background-color: transparent;
+}
+   .content{
+    border: 1px solid transparent;
+    width: 900px;
+    height: 500px;
+    margin-top: 100px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   }
+   .content span{
+    color: white;
+    display: block;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   }
+   .text1{
+    font-size:60px;
+    /* font-weight: 700; */
+    margin-bottom: 20px;
+    animation: text 3s 1.5;
+    letter-spacing: 4px;
+   }
+   .text2{
+    font-size: 30px;
+   }
+   @keyframes text{
+    0%{
+        transform: 10s;
+        border-bottom: -20px;
+        color: black;
+    }
+    30%{
+        transform:2s ;
+        letter-spacing: 25px;
+        border-bottom: -20px;
+    }
+    85%{
+        transform:2s ;
+        letter-spacing: 8px;
+        border-bottom: -20px;
+    }
+   }
+   .space{
+    border: 2px solid transparent;
+    width: 400px;
+    height:40px;
+    margin-top: 80px;
+    margin-left: 390px;
+   }
+   .box{
+    text-decoration: none;
+    color:white;
+    background-color: transparent;
+   }
+   .box:hover{
+    color: black;
+   }
+   .box1{
+    background-color: transparent;
+    margin-left:30px;
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    border-radius: 0;
+   }
+   .box1:hover{
+    background-color:rgba(218, 165, 32, 0.717) ;
+   }
+   .main2{
+    border: 0px solid transparent;
+    width: 100%;
+    height:150vh;
+    margin-top: 220px;
+    position: relative;
+    background-image: url(1711817213787.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .mode{
+    position: absolute;
+    width: 100%;
+    height:150vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.37);
+   }
+   .mode1{
+    border: 2px solid transparent;
+    width: 400px;
+    height:40px;
+    margin-top:60px;
+    margin-left: 390px;
+   }
+   .mode2{
+    border: 2px solid transparent;
+    width: 700px;
+    height:80px;
+    margin-top:20px;
+    margin-left: 250px;
+   }
+   .food{
+    border: 2px solid transparent;
+    width: 1000px;
+    height: 478px;
+    display: flex;
+    margin-left:125px;
+    margin-top: 10px;
+   }
+   .food1{
+    border: 1px solid transparent;
+    width: 300px;
+    height:420px;
+   }
+   .fast{
+    text-decoration: none;
+    color: white;
+   }
+   .good{
+    border: 0px solid transparent;
+    width: 100%;
+    height:150vh;
+    /* margin-top: 220px; */
+    position: relative;
+    background-image: url(1711860193749.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   }
+   .story{
+    position: absolute;
+    width: 100%;
+    height:150vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.233);
+   }
+   .good1{
+    border: 2px solid transparent;
+    width: 1000px;
+    height: 600px;
+    margin-top: 160px;
+    margin-left: 250px;
+    display: flex;
+   }
+   .story1{
+    border: 1px solid transparent;
+    width: 500px;
+    height: 600px;
+   }
+   .read{
+    border: 2px solid white;
+    width: 200px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-left: 160px;
+   }
+   .read1{
+    text-decoration: none;
+    color: goldenrod;
+   }
+ .main3{
+    border: 0px solid transparent;
+    width: 100%;
+    height:150vh;
+    margin-top: 0px;
+    position: relative;
+    background-image: url(1711860193739.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .more{
+    position: absolute;
+    width: 100%;
+    height:150vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(128, 128, 128, 0.233);
+ }
+ .b{
+    width: 800px;
+    height: 500px;
+    border: 2px solid goldenrod;
+    margin-left: 230px;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0.614);
+ }
+ .font{
+    width: 200px;
+    height: 40px;
+    border: 2px solid goldenrod;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+ }
+ .font1{
+    border: 2px solid goldenrod;
+    width: 500px;
+    border-radius: 0px;
+    margin-left: 140px;
+    height: 50px;
+    background-color: white;
+ }
+ .font2{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 25px;
+ }
+ .font2:hover{
+    background-color: transparent;
+    color: white;
+ }
+ .font1:hover{
+    border: 2px solid white;
+ }
+ 
